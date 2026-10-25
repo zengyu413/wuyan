@@ -562,4 +562,4 @@ def analyze():
         return jsonify({"error": "请求大模型失败，请稍后再试。"})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=7860, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
